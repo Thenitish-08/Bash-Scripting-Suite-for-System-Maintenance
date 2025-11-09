@@ -19,3 +19,4 @@ trap_on_exit(){
   exit $rc
 }
 trap 'trap_on_exit' EXIT
+EOF
