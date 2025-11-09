@@ -17,3 +17,4 @@ else
 fi
 
 log "$LOG" "System maintenance finished"
+EOF
