@@ -36,3 +36,4 @@ while true; do
     esac
   done
 done
+EOF
