@@ -72,3 +72,4 @@ find "$BACKUPDIR" -type f -name 'backup-*.tar.gz' -mtime +"$RETENTION_DAYS" \
   -print -delete >>"$LOG" 2>&1 || log "Warning: Cleanup encountered errors."
 
 log "================= Backup Completed ================="
+EOF
