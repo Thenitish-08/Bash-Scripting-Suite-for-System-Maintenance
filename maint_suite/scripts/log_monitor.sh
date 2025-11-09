@@ -30,3 +30,4 @@ else
 fi
 
 log "$LOG" "Log monitor finished"
+EOF
